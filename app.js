@@ -1,6 +1,6 @@
 var Cosmic = require('cosmicjs');
 
-const bucket = { slug: 'easy-browser' }
+const bucket = { slug: 'easy-browser-example' }
 const object = { slug: 'home' }
 
 Cosmic.getObject({ bucket}, object, (err, res) => {
